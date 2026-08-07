@@ -42,3 +42,10 @@
 
     //     x++;
     // }
+
+//     5.
+// Stampa la tabellina del 5.
+
+// for(let fives = 5; fives <= 50; fives += 5) {
+//     console.log(fives);
+// }

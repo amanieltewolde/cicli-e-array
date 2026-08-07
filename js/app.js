@@ -21,7 +21,24 @@
 // richiesta di numero allo user
 //  const num = Number(prompt('scegli un numero a piacere'));
 //  console.log(`${num} è il numero che hai scelto`);
-// //  creare ciclo for creando contatore e condizione 
+
+// //  creare ciclo for creando contatore e condizione per stampare da 0 a N
 // for(let x = 0; x <= num; x++ ) {
-//     console.log(x);
-// }
+    //     console.log(x);
+    // }
+    
+    // 4.
+    // Chiedi un numero N all'utente. Stampa i numeri da 0 a N usando un ciclo while.
+    
+    // richiesta di numero allo user e set contatore
+    // const num = Number(prompt('scegli un numero a piacere'));
+    // console.log(`${num} è il numero che hai scelto`);
+
+    // let x = 0;
+    
+    // // //  creare ciclo while creando condizione per stampare da 0 a N
+    // while(x <= num) {
+    //     console.log(x);
+
+    //     x++;
+    // }

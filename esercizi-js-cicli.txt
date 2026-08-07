@@ -1,6 +1,3 @@
-4.
-Chiedi un numero N all'utente. Stampa i numeri da 0 a N usando un ciclo while.
-
 5.
 Stampa la tabellina del 5.
 

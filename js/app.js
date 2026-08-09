@@ -63,3 +63,25 @@
 // for(let i = 0; i < userNum; i++) {
 //     console.log(userWord);
 // }
+
+
+// 7.
+// Chiedi un numero N all'utente. Calcola la somma di tutti i numeri da 1 a N e stampa il risultato.
+
+// richiesta numero user
+// const userNum = Number(prompt('Dimmi un numero'));
+// let som = 0;
+// // // creare numeri da 1 a N
+// for(let i = 0; i <= userNum; i++) {
+//         som += i;
+
+//         console.log(som);
+// }
+
+
+
+
+
+
+
+

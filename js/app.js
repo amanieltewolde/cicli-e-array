@@ -78,10 +78,21 @@
 //         console.log(som);
 // }
 
+// 8.
+// Chiedi all'utente di inserire il prezzo di un prodotto. Continua a chiedere prezzi e sommarli al totale finché l'utente non inserisce "0" per terminare. Stampa il totale della spesa.
 
+// richiesta prezzo prodotto allo user
+// const product1 ='ciambella';
+// console.log(product1);
 
+// let $p1 = Number(prompt('Inserire prezzo prodotto'));
+// let sumPriceProducts = $p1;
+// console.log(`La tua spesa al momento è di ${sumPriceProducts}€`);
 
-
-
-
+// while($p1 !== 0){
+//     $p1 = Number(prompt('inserire prezzo prodotto seguente'));
+//     sumPriceProducts += $p1;
+//     console.log(`Il totale della tua spesa è di ${sumPriceProducts}€`);
+    
+// }
 

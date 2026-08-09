@@ -49,3 +49,17 @@
 // for(let fives = 5; fives <= 50; fives += 5) {
 //     console.log(fives);
 // }
+
+// 6.
+// Chiedi all'utente una parola e un numero N. Stampa quella parola N volte.
+
+// richiesta della parola e di un numero user
+// const userWord = prompt('scegli una parola');
+// const userNum = Number(prompt('Ora scegli un numero'));
+
+// // let n = userNum;
+
+// // creare ciclo for per stampare N volte
+// for(let i = 0; i < userNum; i++) {
+//     console.log(userWord);
+// }

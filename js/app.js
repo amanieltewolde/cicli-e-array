@@ -165,3 +165,32 @@
 //     }
 // }
 
+// 10.
+// Il computer pensa a un numero tra 1 e 100. L'utente indovina. Dopo ogni tentativo sbagliato, il computer dice "Troppo alto" o "Troppo basso" per aiutare l'utente.`
+// numero randomico del Pc
+// const pcNumb = Math.floor((Math.random() *100) + 1 );
+// console.log(pcNumb);
+// // definire variabili da usare per successive verifiche  
+// let numbCorrect = false;
+// let tentativi = 0;
+
+
+// // configurare ciclo per rchiesta
+// while(!numbCorrect) {
+//     // richiesta numero user
+//     let userNumb = Number(prompt('indovina a che numero sto pensando'));
+
+//     tentativi++;
+// // creare condizioni per capire se si è indovinato o meno 
+//     if (userNumb === pcNumb) {
+//         numbCorrect = true;
+//         console.log('Hai indovinato in ' + tentativi + ' tentativo/i');
+//     } else if(userNumb > pcNumb) {
+//         console.log('Troppo alto');
+//     } else {
+//         console.log('Troppo basso');
+//     }
+// }
+
+
+

@@ -96,3 +96,72 @@
     
 // }
 
+// 9.
+// L'utente ha 3 tentativi per indovinare la password. Stampa "Benvenuto" se riesce nei tentativi consentiti, altrimenti "Bloccato"
+
+// creazione password originale
+
+// const realPassword = 'PaoloD.Boolean';
+
+// // tentativi user
+// let tentativi = 3;
+
+// // variabile per accesso
+// let accessoConfirmed = false;
+
+// // creare ciclo che tiene conto dei tentativi
+// while(tentativi > 0) {
+    //     // richiesta inserimento password user
+    //     let userPassword = prompt('Inserisci la password');
+    
+    //     if(userPassword === realPassword){
+        //         accessoConfirmed = true;
+        //         break;
+        //     } else {
+            //         tentativi--;
+            //         alert('PASSWORD ERRATA');
+            //     }
+            // } 
+            
+// if(accessoConfirmed){
+    //     console.log('Benvenuto');
+    // } else {
+        //     console.log('Bloccato');
+        // }
+       
+        
+        // VARIANTE ESERCIZIO N°9
+// const realPassword = 'PaoloD.Boolean';
+//         const maxTentativi = 3;
+// let accessoConcesso = false;
+
+// // Ciclo for: parte da 1 e si ferma dopo il numero massimo di tentativi
+// for (let tentativo = 1; tentativo <= maxTentativi; tentativo++) {
+    
+//     // Richiede la password all'utente
+//     let userPassword = prompt(`Inserisci la password (Tentativo ${tentativo} di ${maxTentativi}):`);
+    
+//     // Gestione del tasto "Annulla" nel prompt
+//     if (userPassword === null) {
+//         alert("Inserimento annullato.");
+//         break; // Interrompe il ciclo immediatamente
+//     }
+
+//     // Verifica della password
+//     if (userPassword === realPassword) {
+//         accessoConcesso = true;
+//         alert("Accesso consentito. Benvenuto!");
+//         break; // Password corretta: esce dal ciclo for
+//     } else {
+//         // Calcolo dei tentativi rimasti
+//         let tentativiRimasti = maxTentativi - tentativo;
+        
+//         if (tentativiRimasti > 0) {
+//             alert(`Password errata. Ti rimangono ${tentativiRimasti} tentativi.`);
+//         } else {
+//             alert("Account bloccato. Hai esaurito i tentativi disponibili.");
+
+//         }
+//     }
+// }
+

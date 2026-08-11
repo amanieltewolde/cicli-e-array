@@ -1,0 +1,21 @@
+2.
+Dato l'array di numeri [10, 21, 6, 73, 9, 14, 44], crea un array con soli numeri pari
+
+3.
+Dato un array di temperature settimanali [19, 21, 18, 23, 25, 22, 20], trova il valore massimo e trova il valore minino
+
+4.
+Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti.
+
+5.
+Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
+
+6.
+Chiedi all'utente 5 numeri e salvali in un array. Alla fine calcola e stampa la somma di tutti i numeri inseriti.
+
+7. 
+Genera 10 numeri random e salvali in un array. I numeri nell'array devono essere univoci (non ci devono essere ripetizioni dello stesso numero all'interno dell'array)
+
+8.
+Da un estratto conto bancario (array), estrai solo le ultime 3 transazioni effettuate.
+

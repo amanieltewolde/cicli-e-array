@@ -54,7 +54,6 @@ console.log('ciao array');
 // creare array con valori descritti
 // const votes = [6, 8, 4, 9, 5, 7, 10];
 // console.table(votes);
-// // creare variabile per determinare parametro per successiva operazione
 // let sum = 0;
 // // creare ciclo per sommare in valori presenti nell'array
 // for(i = 0; i < votes.length; i++) {
@@ -68,8 +67,32 @@ console.log('ciao array');
 // 5.
 // Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
 // creare array dei dati
-const names = ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'];
-// capire lunghezza item degli array con filter
-const result = names.filter(name => name.length > 4);
+// const names = ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'];
+// // capire lunghezza item degli array con filter
+// const result = names.filter(name => name.length > 4);
 
-console.log(result);
+// console.log(result);
+
+// 6.
+// Chiedi all'utente 5 numeri e salvali in un array. Alla fine calcola e stampa la somma di tutti i numeri inseriti.
+
+// creare array vuoto
+const userNumbs = [];
+
+// creare ciclo per inserire tramite .push nuovi item nell'array creato precedentemente
+for(let i = 1; i <= 5; i++) {
+    let numb = Number(prompt('Un numero please'));
+    
+    userNumbs.push(numb);
+    console.log(userNumbs);
+    
+}
+
+// // creare variabile per determinare parametro per successiva operazione
+let sum= 0;
+// // creare ciclo per sommare in valori presenti nell'array
+for(let i = 0; i < userNumbs.length; i++) {
+    sum += userNumbs[i];
+}
+// stampa somma numeri
+console.log(sum);

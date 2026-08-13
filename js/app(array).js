@@ -48,3 +48,19 @@ console.log('ciao array');
 // let maxTemp = ascendingOrderWT.at(-1);
 // console.log(`La massima durante la settimana sarà di giovedi, con esattamente ${maxTemp}°C`);
 
+// 4.
+// Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti.
+
+// creare array con valori descritti
+// const votes = [6, 8, 4, 9, 5, 7, 10];
+// console.table(votes);
+// // creare variabile per determinare parametro per successiva operazione
+// let sum = 0;
+// // creare ciclo per sommare in valori presenti nell'array
+// for(i = 0; i < votes.length; i++) {
+    
+//     sum += votes[i];
+// }
+// // creare variabile finale
+// const media = sum / votes.length;
+// console.log('La media dei valori contenuti nella collezione è di ' + media);

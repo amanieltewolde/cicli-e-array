@@ -29,3 +29,22 @@ console.log('ciao array');
 
 // console.log(evenNumb);
 
+// 3.
+// Dato un array di temperature settimanali [19, 21, 18, 23, 25, 22, 20], trova il valore massimo e trova il valore minino
+
+// creare array con valori descritti
+// const weekTemp = [19, 21, 18, 23, 25, 22, 20];
+// console.table(weekTemp);
+
+// // creare copia array dove si segue un ordine crescente dei valori
+// const ascendingOrderWT = weekTemp.toSorted(function(a, b){return a-b});
+// console.table(ascendingOrderWT);
+
+// // variabile per valore minimo
+// let minTemp = ascendingOrderWT.at(0);
+// console.log(`La minima durante la settimana sarà di martedi, con esattamente ${minTemp}°C`);
+
+// // variabile per valore massimo
+// let maxTemp = ascendingOrderWT.at(-1);
+// console.log(`La massima durante la settimana sarà di giovedi, con esattamente ${maxTemp}°C`);
+

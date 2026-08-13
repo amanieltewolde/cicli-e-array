@@ -1,6 +1,3 @@
-3.
-Dato un array di temperature settimanali [19, 21, 18, 23, 25, 22, 20], trova il valore massimo e trova il valore minino
-
 4.
 Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti.
 

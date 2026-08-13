@@ -1,6 +1,3 @@
-5.
-Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
-
 6.
 Chiedi all'utente 5 numeri e salvali in un array. Alla fine calcola e stampa la somma di tutti i numeri inseriti.
 

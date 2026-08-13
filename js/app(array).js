@@ -64,3 +64,12 @@ console.log('ciao array');
 // // creare variabile finale
 // const media = sum / votes.length;
 // console.log('La media dei valori contenuti nella collezione è di ' + media);
+
+// 5.
+// Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
+// creare array dei dati
+const names = ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'];
+// capire lunghezza item degli array con filter
+const result = names.filter(name => name.length > 4);
+
+console.log(result);

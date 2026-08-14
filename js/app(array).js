@@ -101,20 +101,32 @@ console.log('ciao array');
 // Genera 10 numeri random e salvali in un array. I numeri nell'array devono essere univoci (non ci devono essere ripetizioni dello stesso numero all'interno dell'array)
 
 // creare array vuoto
-const userNumbs = [];
-// stabilire lunghezza array desiderata
-const maxLength = 10;
-// creare ciclo while per generare numeri random richiesti 
-while( userNumbs.length < maxLength) {
-    const randomNumb = Math.floor(Math.random() * 100);
-// creare condizione per la quale non si ripetano numeri già evocati 
-    if(!userNumbs.includes(randomNumb)) {
-        userNumbs.push(randomNumb);
-    } 
+// const userNumbs = [];
+// // stabilire lunghezza array desiderata
+// const maxLength = 10;
+// // creare ciclo while per generare numeri random richiesti 
+// while( userNumbs.length < maxLength) {
+//     const randomNumb = Math.floor(Math.random() * 100);
+// // creare condizione per la quale non si ripetano numeri già evocati 
+//     if(!userNumbs.includes(randomNumb)) {
+//         userNumbs.push(randomNumb);
+//     } 
 
     
-}
-// stampa array finale
-console.log(userNumbs);
+// }
+// // stampa array finale
+// console.log(userNumbs);
 
+
+// 8.
+// // Da un estratto conto bancario (array), estrai solo le ultime 3 transazioni effettuate.
+// // creare array 
+// const estrattoConto = [23, 26, 5, 54, 32, 52, 75, 874, 47, 42, 21];
+// console.table(estrattoConto);
+// // sllice per ottenere gli item richiesti e portarli in un nuovo array
+// const last3 = estrattoConto.slice(-3,);
+// console.log(last3);
+
+// // stampa item estratti
+// console.log(last3.join(', '));
 

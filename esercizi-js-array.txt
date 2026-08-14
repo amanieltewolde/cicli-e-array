@@ -1,3 +1,0 @@
-8.
-Da un estratto conto bancario (array), estrai solo le ultime 3 transazioni effettuate.
-

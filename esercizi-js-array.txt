@@ -1,6 +1,3 @@
-7. 
-Genera 10 numeri random e salvali in un array. I numeri nell'array devono essere univoci (non ci devono essere ripetizioni dello stesso numero all'interno dell'array)
-
 8.
 Da un estratto conto bancario (array), estrai solo le ultime 3 transazioni effettuate.
 

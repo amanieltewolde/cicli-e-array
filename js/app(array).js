@@ -77,22 +77,44 @@ console.log('ciao array');
 // Chiedi all'utente 5 numeri e salvali in un array. Alla fine calcola e stampa la somma di tutti i numeri inseriti.
 
 // creare array vuoto
+// const userNumbs = [];
+
+// // creare ciclo per inserire tramite .push nuovi item nell'array creato precedentemente
+// for(let i = 1; i <= 5; i++) {
+//     let numb = Number(prompt('Un numero please'));
+    
+//     userNumbs.push(numb);
+//     console.log(userNumbs);
+    
+// }
+
+// // // creare variabile per determinare parametro per successiva operazione
+// let sum= 0;
+// // // creare ciclo per sommare in valori presenti nell'array
+// for(let i = 0; i < userNumbs.length; i++) {
+//     sum += userNumbs[i];
+// }
+// // stampa somma numeri
+// console.log(sum);
+
+// 7. 
+// Genera 10 numeri random e salvali in un array. I numeri nell'array devono essere univoci (non ci devono essere ripetizioni dello stesso numero all'interno dell'array)
+
+// creare array vuoto
 const userNumbs = [];
+// stabilire lunghezza array desiderata
+const maxLength = 10;
+// creare ciclo while per generare numeri random richiesti 
+while( userNumbs.length < maxLength) {
+    const randomNumb = Math.floor(Math.random() * 100);
+// creare condizione per la quale non si ripetano numeri già evocati 
+    if(!userNumbs.includes(randomNumb)) {
+        userNumbs.push(randomNumb);
+    } 
 
-// creare ciclo per inserire tramite .push nuovi item nell'array creato precedentemente
-for(let i = 1; i <= 5; i++) {
-    let numb = Number(prompt('Un numero please'));
-    
-    userNumbs.push(numb);
-    console.log(userNumbs);
     
 }
+// stampa array finale
+console.log(userNumbs);
 
-// // creare variabile per determinare parametro per successiva operazione
-let sum= 0;
-// // creare ciclo per sommare in valori presenti nell'array
-for(let i = 0; i < userNumbs.length; i++) {
-    sum += userNumbs[i];
-}
-// stampa somma numeri
-console.log(sum);
+
